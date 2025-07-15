@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",             // ✅ Enables JSX
+    "jsx": "preserve", // ✅ Enables JSX
     "allowJs": true,
     "target": "es5",
     "module": "esnext",
@@ -11,8 +11,20 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noEmit": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
