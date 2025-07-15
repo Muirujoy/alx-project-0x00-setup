@@ -1,9 +1,13 @@
 import React from "react";
-import { ButtonProps } from "../interfaces";
 
-const Button: React.FC<ButtonProps> = ({ title, styles }) => {
+interface ButtonProps {
+  title: string;
+  style?: string; // Optional additional styles like shape and size
+}
+
+const Button: React.FC<ButtonProps> = ({ title, style }) => {
   return (
-    <button className={`text-white px-4 py-2 ${styles}`}>
+    <button className={`bg-blue-500 text-white px-4 py-2 ${style}`}>
       {title}
     </button>
   );
