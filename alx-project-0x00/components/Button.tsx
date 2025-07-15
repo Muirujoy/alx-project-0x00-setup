@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   title: string;
-  style?: string; // Custom styles including shape and size
+  style?: string; // This will accept Tailwind classes like "rounded-sm"
 }
 
 const Button: React.FC<ButtonProps> = ({ title, style }) => {
