@@ -1,5 +1,5 @@
 import React from "react";
-import { PillProps } from "../interfaces"; // 
+import { PillProps } from "../interfaces"; // or "@/interfaces" if path alias works
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (
