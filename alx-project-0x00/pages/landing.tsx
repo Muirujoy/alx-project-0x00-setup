@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../components/Card";
 import Button from "../components/Button";
+import Card from "../components/Card";
 
 const Landing: React.FC = () => {
   return (
@@ -8,9 +8,9 @@ const Landing: React.FC = () => {
       <h1 className="text-xl font-extralight mb-4">Landing Page</h1>
 
       <div className="flex gap-4 mb-6">
-        <Button title="Small Button" style="rounded-sm" />
-        <Button title="Medium Button" style="rounded-md" />
-        <Button title="Large Button" style="rounded-full" />
+        <Button title="Rounded Small" style="rounded-sm" />
+        <Button title="Rounded Medium" style="rounded-md" />
+        <Button title="Rounded Full" style="rounded-full" />
       </div>
 
       <Card />

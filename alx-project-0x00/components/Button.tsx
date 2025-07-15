@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   title: string;
-  style?: string; // Optional additional styles like shape and size
+  style?: string; // Custom styles including shape and size
 }
 
 const Button: React.FC<ButtonProps> = ({ title, style }) => {
